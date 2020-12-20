@@ -35,16 +35,23 @@
   left: 31px;
   border-radius: 3px;
   display: none;
+  margin-top: 5px;
 }
 
 .dropdown__menu::before {
   content: "";
   display: block;
   height: 30px;
-  left: 0;
-  right: 0;
-  top: -29px;
+  left: 100px;
+  right: 10px;
+  top: -7px;
   position: absolute;
+
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid #EDEDED;
 }
 
 .dropdown:hover .dropdown__menu {
