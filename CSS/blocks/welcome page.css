@@ -10,6 +10,14 @@
   background: url(../../img/bg.png);
 }
 
+.welcome__container {
+  position: relative;
+  min-width: 595px;
+  max-height: 250px;
+}
+
+
+
 .central {
   display: flex;
   flex-direction: column;
@@ -21,11 +29,21 @@
   font-size: 18px;
 }
 
+.central__logo {
+  position: absolute;
+  top: -120px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
 
 .central--asia {
   opacity: 0;
   animation: zoom 1s ease-in;
   animation-fill-mode: forwards;
+  display: flex;
 }
 
 @keyframes zoom {
