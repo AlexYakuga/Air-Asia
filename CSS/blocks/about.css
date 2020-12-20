@@ -1,0 +1,39 @@
+.about {
+  display: flex;
+}
+
+.about:before {
+  /* для добавления косметического элемента*/
+  content: "";
+  display: block;
+  vertical-align: top;
+  width: 490px;
+  height: 505px;
+  background: url(../../img/gates.png) center center / cover no-repeat;
+}
+
+.about__desc {
+  background: url(../../img/mountains.png) center center / cover no-repeat;
+  padding: 70px 81px;
+  max-width: 785px;
+  height: 455px;
+  margin-left: -137px;
+  margin-top: 97px;
+}
+
+.about__tittle {
+  font-weight: bold;
+  margin-bottom: 37px;
+  color: #000000;
+  font-size: 36px;
+}
+
+.about__desc-text {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 105px;
+}
+
+.about__desc-text p {
+  margin-bottom: 20px;
+}

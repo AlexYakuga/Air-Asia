@@ -1,0 +1,23 @@
+.single-news__text-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 45px 30px;
+  min-height: 140px;
+}
+
+.single-news__date {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.single-news__tittle {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.single-news__desc {
+  font-size: 16px;
+}

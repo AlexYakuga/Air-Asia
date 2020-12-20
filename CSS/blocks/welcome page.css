@@ -1,0 +1,58 @@
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url(../../img/bg.png);
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.central__text {
+  margin-bottom: 52px;
+  font-size: 18px;
+}
+
+
+.central--asia {
+  opacity: 0;
+  animation: zoom 1s ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(.7);
+  }
+
+  20% {
+    transform: scale(1.15);
+  }
+
+  40% {
+    transform: scale(.9);
+  }
+
+  60% {
+    transform: scale(1.1);
+  }
+
+  40% {
+    transform: scale(.9);
+  }
+
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+    /* привести к масштабу 1 по окончании */
+  }
+}
