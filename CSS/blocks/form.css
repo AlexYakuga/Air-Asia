@@ -1,3 +1,8 @@
+.container-reviews {
+  margin: 0 auto;
+  width: 1141px;
+}
+
 .form {
   max-width: 1142px;
 }
@@ -16,7 +21,13 @@
   padding: 19px 30px;
   color: #1A1B1E;
   font-size: 18px;
+  /* outline: 1px solid #f5170e; */
 }
+
+.form__input:focus {
+  outline: 1px solid #f5170e;
+}
+
 
 .form__input:last-child {
   margin-right: 0;
@@ -34,6 +45,8 @@
   color: #666666;
   font-size: 18px;
 }
+
+
 
 .forms__controls {
   display: flex;
