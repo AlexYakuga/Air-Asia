@@ -37,6 +37,10 @@
   padding: 18px 30px;
 }
 
+.btn--color--white:hover {
+  background: rgb(118, 151, 51);
+}
+
 .btn--color--black {
   background: #2B2B2B;
   color: #FFFFFF;

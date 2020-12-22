@@ -1,5 +1,5 @@
 .socials {
-  margin-right: 70px;
+  margin-right: 45px;
 }
 
 .socials__item {
@@ -19,11 +19,11 @@
   height: 36px;
 }
 
-.socials__item--icon-telegram {
-  background-image: url(../../img/telegram.png);
-}
+/* .socials__item--icon-telegram {
+   background-image: url(../../img/telegram.png); 
+} */
 
-.socials__item--icon-vk {
+/* .socials__item--icon-vk {
   background-image: url(../../img/vk.png);
 }
 
@@ -33,4 +33,48 @@
 
 .socials__item--icon--insta {
   background-image: url(../../img/in.png);
+} */
+
+.socials__item--icon-telegram::after {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../../img/css_sprites.png) -122px -10px;
+}
+
+.socials__item--icon-vk::after {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../../img/css_sprites.png) -66px -10px;
+}
+
+.socials__item--icon--fb::after {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../../img/css_sprites.png) -10px -10px;
+}
+
+.socials__item--icon--insta::after {
+  content: "";
+  display: block;
+  width: 36px;
+  height: 36px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url(../../img/css_sprites.png) -178px -10px;
 }
