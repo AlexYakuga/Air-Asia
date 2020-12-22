@@ -12,11 +12,13 @@
 
 .menu__link {
   text-decoration: none;
+
 }
 
 .menu__link:hover {
   /*Для подкрашивания при активности*/
   color: rgba(209, 99, 47, 0.897);
+  transition: .3s;
 }
 
 
@@ -28,7 +30,7 @@
   display: inline-block;
   position: absolute;
   background: #EDEDED;
-  opacity: 0.8;
+  opacity: 0.7;
   padding: 15px 15px;
   width: 160px;
   top: 100%;
@@ -36,6 +38,7 @@
   border-radius: 3px;
   display: none;
   margin-top: 5px;
+  transition: opacity .3s;
 }
 
 .dropdown__menu::before {
@@ -56,6 +59,7 @@
 
 .dropdown:hover .dropdown__menu {
   display: block;
+  transition: .3s;
 }
 
 

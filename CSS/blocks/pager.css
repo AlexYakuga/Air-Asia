@@ -11,14 +11,21 @@
 
 .pager--theme--light .pager__item--active .pager__link {
   color: #fff;
-  background-color: red;
+  background-color: rgb(70, 41, 41);
 }
+
 
 .pager--theme--light .pager__link:hover {
   color: #fff;
-  background-color: red;
+  background-color: rgb(90, 74, 74);
+  transition: 1s;
 }
 
+.pager--theme--night .pager__link:hover {
+  color: #fff;
+  background-color: rgb(165, 122, 122);
+  transition: 1s;
+}
 
 .pager__display {
   margin-right: 25px;

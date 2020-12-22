@@ -7,7 +7,6 @@
   text-decoration: none;
   border: none;
   cursor: pointer;
-
 }
 
 .btn--hero--ginger {
@@ -17,15 +16,18 @@
 
 .btn--hero--ginger:hover {
   background: #9e3936;
+  transition: .3s;
 }
 
 .btn--color--ginger:hover {
   background: #7c302d;
+  transition: .3s;
 }
 
 .btn--color--ginger {
   background: #F5170E;
   padding: 18px 40px;
+
 }
 
 .btn--color--white {
@@ -39,6 +41,7 @@
 
 .btn--color--white:hover {
   background: rgb(118, 151, 51);
+  transition: .3s;
 }
 
 .btn--color--black {
@@ -48,4 +51,5 @@
 
 .btn--color--black:hover {
   background: #7c302d;
+  transition: .3s;
 }
